@@ -1,0 +1,2 @@
+python train_text_diffusion.py --eval --resume_dir ck_save_path --sampling_timesteps 25 --num_samples 1000 --wandb_name irishman_dpmpp --sampler dpmpp --sampling_schedule cosine
+# Need to update resume_dir to the correct path
